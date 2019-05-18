@@ -1,0 +1,17 @@
+printState
+maxNodes 1000000
+randomizeState 15
+printState
+solve A-star hr
+move XZ-
+move YZ+
+move XY-
+move YZ-
+move YZ-
+move XZ+
+move XY+
+move YZ-
+move YZ-
+printState
+randomizeState 8
+solve beam 10

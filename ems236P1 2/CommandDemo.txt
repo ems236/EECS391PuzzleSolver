@@ -1,0 +1,62 @@
+setState 843 b51 672
+printState
+randomizeState 100
+printState
+move down
+printState
+move right
+printState
+move up
+printState
+move left
+printState
+maxNodes 2000
+solve A-star h1
+solve A-star h2
+solve beam 10
+randomizeState 100
+solve beam 1
+printState
+solve beam 10
+move up
+move down
+move right
+move down
+move up
+move left
+move up
+move down
+move down
+move left
+move right
+move right
+move up
+move left
+move left
+move up
+move right
+move right
+move down
+move left
+move left
+move down
+move right
+move up
+move left
+move up
+printState
+setState b85 432 761
+maxNodes 10
+solve A-star h1
+solve A-star h2
+setState b14 826 753
+solve beam 1
+setState b12 345 678
+debug
+maxNodes 4
+setState 321 b64 758
+solve A-star h1
+solve A-star h2
+setState 312 475 6b8
+solve beam 3
+debug
